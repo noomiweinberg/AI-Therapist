@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>AI THERAPIST</title>
+  <script defer src="./js/face-api.min.js"></script>
+  <script defer src="./js/app.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="box">
+    <video id="video" width="620" height="460" autoplay muted></video>
+  </div>
+  <div id="awan">
+    <h2>AI THERAPIST</h2>
+    <h3>Laat mij zien hoe je je voelt, en ik zal je helpen!</h3>
+    <h4 id="text"></h4>
+      <!-- Embed YouTube videos  -->
+      <iframe width="560" height="315" id="happyvideo" src="https://www.youtube.com/embed/HgzGwKwLmgM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" id="sadvideo" src="https://www.youtube.com/embed/PppkNH3bKV4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" id="neutralvideo" src="https://www.youtube.com/embed/iWlcAylOVNU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" id="angryvideo" src="https://www.youtube.com/embed/de2TdvDaS5A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" id="surprisedvideo" src="https://www.youtube.com/embed/AlwltjOtnCk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" id="fearfulvideo" src="https://www.youtube.com/embed/ubSWWqDpldE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" id="disgustedvideo" src="https://www.youtube.com/embed/FW_sy2D4i90" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <form>
+        <input type="button" class="button3"id="reloadbutton" onClick="history.go(0)" value="Try Again">
+        </form>
+    </div>
+</html>
